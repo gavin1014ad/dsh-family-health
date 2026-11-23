@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "家庭健康",
+    "description": "管理家庭成员档案、体检记录、疾病风险分析与就诊建议，支持关键指标趋势对比、HTML 报告导出与 PDF 体检报告导入。",
+    "detail": "docs/DETAIL.md"
+  }
+}
