@@ -1,0 +1,61 @@
+{
+  "name": "dsh-family-health",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A family health manager for DeepSeek Harness: member profiles, physical-exam records, disease-risk analysis, visit-department suggestions, health advice, and HTML report export — with a built-in PDF import.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gavin1014ad/dsh-family-health.git"
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "health",
+    "family-health",
+    "medical-report"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-client-locale": ">=0.1.0-rc.6 <0.3.0-0",
+    "@deepseek-ai/dsh-client-ui-sidebar-right": ">=0.1.0-rc.6 <0.3.0-0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-client-locale": { "optional": true },
+    "@deepseek-ai/dsh-client-ui-sidebar-right": { "optional": true }
+  },
+  "engines": {
+    "dsh": ">=0.1.0-rc.6 <0.3.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-sidebar-right"
+      ]
+    }
+  }
+}
