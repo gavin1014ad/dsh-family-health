@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Family Health",
+    "description": "Manage family member profiles, exam records, disease-risk analysis, and visit-department suggestions, with key-marker trend comparison, HTML report export, and PDF exam import.",
+    "detail": "docs/DETAIL.md"
+  }
+}
