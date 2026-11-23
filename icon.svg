@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Family Health">
+  <defs>
+    <linearGradient id="fh-shield" x1="14" y1="8" x2="50" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3EC9A7"/>
+      <stop offset="1" stop-color="#1B9E7E"/>
+    </linearGradient>
+    <linearGradient id="fh-cross" x1="28" y1="22" x2="40" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9FBF6"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 6 52 13v14c0 13.4-8.6 23.6-20 29-11.4-5.4-20-15.6-20-29V13L32 6Z" fill="url(#fh-shield)"/>
+  <path d="M32 6 52 13v14c0 13.4-8.6 23.6-20 29V6Z" fill="#FFFFFF" opacity=".14"/>
+  <path d="M31 20h2v10h10v2H33v10h-2V32H21v-2h10V20Z" fill="url(#fh-cross)"/>
+  <circle cx="44" cy="44" r="8.5" fill="#FFB84D"/>
+  <path d="M44 40.2v7.6M40.2 44h7.6" stroke="#7A4E00" stroke-width="1.9" stroke-linecap="round"/>
+</svg>
