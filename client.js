@@ -2286,7 +2286,7 @@ window.__ModuleLoader__.load({
               "div",
               { className: "fh-field" },
               h("label", { className: "fh-label" }, t("marker.value")),
-              h("input", { className: "fh-input", value: m.value, placeholder: "6.05", onChange: (e) => updateMarker(idx, "value", e.target.value) }),
+              h("input", { className: "fh-input", value: m.value, placeholder: "5.0", onChange: (e) => updateMarker(idx, "value", e.target.value) }),
             ),
             h(
               "div",
@@ -2314,7 +2314,7 @@ window.__ModuleLoader__.load({
               "div",
               { className: "fh-field" },
               h("label", { className: "fh-label" }, t("marker.refRange")),
-              h("input", { className: "fh-input", value: m.refRange, placeholder: "0.45–1.70", onChange: (e) => updateMarker(idx, "refRange", e.target.value) }),
+              h("input", { className: "fh-input", value: m.refRange, placeholder: "0.5–1.5", onChange: (e) => updateMarker(idx, "refRange", e.target.value) }),
             ),
           ),
         ),
